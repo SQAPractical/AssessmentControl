@@ -4,6 +4,6 @@ geckodriver
 geckodriver.exe
 javaWebdriverCucumber.iml
 ASK.iml
-workspace.xml
 pom.xml
 .idea/
+target/
