@@ -6,4 +6,4 @@ javaWebdriverCucumber.iml
 ASK.iml
 pom.xml
 .idea/
-.target/
+target/
