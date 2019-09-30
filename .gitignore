@@ -1,5 +1,3 @@
-target/
-.idea/
 chromedriver
 chromedriver.exe
 geckodriver
