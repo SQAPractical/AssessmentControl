@@ -11,51 +11,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1471424644">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="7" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="feature" value="2" />
-          <entry key="gitignore" value="4" />
-          <entry key="java" value="6" />
-          <entry key="md" value="1" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Cucumber" value="2" />
-          <entry key="JAVA" value="6" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="feature" value="194" />
-          <entry key="gitignore" value="30" />
-          <entry key="java" value="162" />
-          <entry key="xml" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Cucumber" value="194" />
-          <entry key="JAVA" value="162" />
-          <entry key="PLAIN_TEXT" value="30" />
-          <entry key="XML" value="22" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -145,12 +100,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="11" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
-    <option name="y" value="23" />
-    <option name="width" value="1749" />
-    <option name="height" value="969" />
-  </component>
+  <component name="ProjectId" id="1RZBTxezfe8LCbE1RdbvcNvRZTg" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
