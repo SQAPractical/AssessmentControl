@@ -37,7 +37,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="feature" value="194" />
-          <entry key="gitignore" value="4" />
+          <entry key="gitignore" value="7" />
           <entry key="java" value="162" />
           <entry key="xml" value="22" />
         </counts>
@@ -46,7 +46,7 @@
         <counts>
           <entry key="Cucumber" value="194" />
           <entry key="JAVA" value="162" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="22" />
         </counts>
       </usages-collector>
@@ -65,7 +65,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -107,9 +111,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/support/TestContext.java" />
         <option value="$PROJECT_DIR$/src/test/java/def_3_10.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -146,6 +150,11 @@
             <path>
               <item name="ASK-Express" type="b2602c69:ProjectViewProjectNode" />
               <item name="ASK-Express" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASK-Express" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASK-Express" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ASK-Express" type="b2602c69:ProjectViewProjectNode" />
@@ -196,7 +205,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569861907697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569862593269" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -321,9 +330,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="307" y="23" width="1030" height="807" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22469635" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22469635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,7 +345,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32934132" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32658958" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -420,7 +428,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
