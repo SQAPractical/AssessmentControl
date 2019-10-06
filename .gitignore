@@ -7,4 +7,5 @@ ASK.iml
 pom.xml
 .idea/
 target/
-idea/workspace.xml
+.idea/workspace.xml
+**/.idea/workspace.xml
