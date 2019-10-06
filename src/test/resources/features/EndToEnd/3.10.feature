@@ -5,14 +5,14 @@ Feature: 3.10
     When I type email "qa.sofi@gmail.com" on "login" page
     And I type password "123456" on "login" page
     And I click Sign in button
-##    Create Quiz
-#    When I click on "Quizzes" on left menu
-#    When I click create new quiz button
-#    When I type title of the quiz "3.10 End to End Quiz"
-#    And I click on Add question button
-#    When I select textual type of Question
-#    Then I type text of question "What is Cookies?"
-#    And I save the quiz
+#    Create Quiz
+    When I click on "Quizzes" on left menu
+    When I click create new quiz button
+    When I type title of the quiz "3.10 End to End Quiz"
+    And I click on Add question button
+    When I select textual type of Question
+    Then I type text of question "What is Cookies?"
+    And I save the quiz
 ###     Create Assignment
 #    When I click on "Assignments" on left menu
 #    And click on Create New Assignment button

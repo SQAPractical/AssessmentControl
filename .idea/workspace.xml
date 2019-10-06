@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8081ce7c-7d80-443f-aaa9-4751d50b440b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ASK-Express.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ASK-Express.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,24 +21,25 @@
     <session id="1471424644">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="2" />
+          <entry key="feature" value="3" />
           <entry key="gitignore" value="4" />
-          <entry key="java" value="6" />
+          <entry key="java" value="9" />
           <entry key="md" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="2" />
-          <entry key="JAVA" value="6" />
+          <entry key="Cucumber" value="3" />
+          <entry key="JAVA" value="9" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="3" />
@@ -40,16 +47,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="194" />
+          <entry key="feature" value="822" />
           <entry key="gitignore" value="30" />
-          <entry key="java" value="162" />
+          <entry key="java" value="354" />
           <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="194" />
-          <entry key="JAVA" value="162" />
+          <entry key="Cucumber" value="822" />
+          <entry key="JAVA" value="354" />
           <entry key="PLAIN_TEXT" value="30" />
           <entry key="XML" value="22" />
         </counts>
@@ -61,27 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1269">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state>
+              <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -89,17 +77,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state>
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/definitions/def_3_10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1450">
-              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+            <state relative-caret-position="519">
+              <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#iTypeTitleOfTheQuiz#0;class#def_3_10#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/definitions/userFirstName_def.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,12 +132,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/support/TestContext.java" />
         <option value="$PROJECT_DIR$/src/test/java/def_3_10.java" />
-        <option value="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/userFirstName_def.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" />
       </list>
     </option>
   </component>
@@ -146,17 +158,15 @@
     <option name="jreName" value="11" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="171" />
     <option name="y" value="23" />
-    <option name="width" value="1749" />
-    <option name="height" value="969" />
+    <option name="width" value="1440" />
+    <option name="height" value="789" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,18 +190,50 @@
               <item name="ASK-Express" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASK-Express" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASK-Express" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="definitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASK-Express" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASK-Express" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASK-Express" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASK-Express" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASK-Express" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASK-Express" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="EndToEnd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569863589180" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569885334505" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -258,13 +300,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: User - First Name 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ASK-Express" />
+      <option name="NAME_FILTER" value="^User \- First Name 1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^User \- First Name 1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User - First Name 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User - First name - Alphanumeric and special characters" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ASK-Express" />
+      <option name="NAME_FILTER" value="^User \- First name \- Alphanumeric and special characters$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^User \- First name \- Alphanumeric and special characters$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User - First name - Alphanumeric and special characters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User - First name - Field is required" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" />
+      <option name="GLUE" value="support definitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="ASK-Express" />
+      <option name="NAME_FILTER" value="^User \- First name \- Field is required$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^User \- First name \- Field is required$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User - First name - Field is required" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber java.Scenario: Predefined steps for Google" />
       <item itemvalue="Cucumber java.Scenario: Teacher create Quiz and assign it to student and student get assignments" />
+      <item itemvalue="Cucumber java.Scenario: User - First name - Alphanumeric and special characters" />
+      <item itemvalue="Cucumber java.Scenario: User - First name - Field is required" />
+      <item itemvalue="Cucumber java.Scenario: User - First Name 1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber java.Scenario: Teacher create Quiz and assign it to student and student get assignments" />
+        <item itemvalue="Cucumber java.Scenario: User - First Name 1" />
+        <item itemvalue="Cucumber java.Scenario: User - First name - Field is required" />
+        <item itemvalue="Cucumber java.Scenario: User - First name - Alphanumeric and special characters" />
         <item itemvalue="Cucumber java.Scenario: Predefined steps for Google" />
       </list>
     </recent_temporary>
@@ -283,41 +388,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 17h 43m 20s.xml">
+    <history-entry file="Scenario__User_-_First_name_-_Alphanumeric_and_special_characters - 2019.09.30 at 12h 28m 56s.xml">
+      <configuration name="Scenario: User - First name - Alphanumeric and special characters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_-_First_name_-_Alphanumeric_and_special_characters - 2019.09.30 at 13h 05m 42s.xml">
+      <configuration name="Scenario: User - First name - Alphanumeric and special characters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_-_First_name_-_Alphanumeric_and_special_characters - 2019.09.30 at 13h 17m 41s.xml">
+      <configuration name="Scenario: User - First name - Alphanumeric and special characters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_-_First_name_-_Alphanumeric_and_special_characters - 2019.09.30 at 13h 34m 46s.xml">
+      <configuration name="Scenario: User - First name - Alphanumeric and special characters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_-_First_name_-_Field_is_required - 2019.09.30 at 13h 53m 27s.xml">
+      <configuration name="Scenario: User - First name - Field is required" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_-_First_Name_1 - 2019.09.30 at 14h 15m 45s.xml">
+      <configuration name="Scenario: User - First Name 1" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_-_First_Name_1 - 2019.09.30 at 14h 52m 57s.xml">
+      <configuration name="Scenario: User - First Name 1" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.30 at 14h 53m 03s.xml">
       <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 17h 43m 56s.xml">
+    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.30 at 14h 53m 59s.xml">
       <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 17h 44m 29s.xml">
-      <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 17h 45m 59s.xml">
-      <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 17h 47m 29s.xml">
-      <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 18h 34m 48s.xml">
-      <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 18h 36m 23s.xml">
-      <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 18h 37m 26s.xml">
-      <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 18h 38m 06s.xml">
-      <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.29 at 18h 39m 07s.xml">
+    <history-entry file="Scenario__Teacher_create_Quiz_and_assign_it_to_student_and_student_get_assignments - 2019.09.30 at 14h 59m 36s.xml">
       <configuration name="Scenario: Teacher create Quiz and assign it to student and student get assignments" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="23" width="1749" height="969" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="789" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23491506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14020029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,12 +431,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32803467" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34131736" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.013353116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.18149883" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32658958" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -373,30 +478,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/predefined.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/definitions/PredefinedStepDefs.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/def_3_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1269">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -408,7 +489,49 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/userFirstName_def.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/definitions/def_3_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="71" column="1" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#iTypeTitleOfTheQuiz#0;class#def_3_10#0" />
+          </folding>
         </state>
       </provider>
     </entry>
