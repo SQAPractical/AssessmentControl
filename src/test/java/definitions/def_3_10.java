@@ -51,8 +51,9 @@ public class def_3_10 {
     }
 
     @When("^I click on \"([^\"]*)\" on left menu$")
-    public void iClickOnOnLeftMenu(String arg0) throws Throwable {
-        getDriver().findElement(By.xpath("//*[contains(text(),'Quizzes')]")).click();
+    public void iClickOnOnLeftMenu(String menuItem) throws Throwable {
+        getDriver().findElement(By.xpath("//*[contains(text(),'"+ menuItem +"')]")).click();
+
         Thread.sleep(1000);
 
     }
@@ -67,6 +68,60 @@ public class def_3_10 {
     @When("^I type title of the quiz \"([^\"]*)\"$")
     public void iTypeTitleOfTheQuiz(String title) throws Throwable {
         getDriver().findElement(By.xpath("//*[@placeholder='Title Of The Quiz *']")).sendKeys(title);
+        Thread.sleep(1000);
 
+    }
+
+    @And("^I click on Add question button$")
+    public void iClickOnAddQuestionButton() throws Throwable {
+        getDriver().findElement(By.xpath("//*[contains(text(), 'add_circle')]")).click();
+    }
+
+    @When("^I select textual type of Question$")
+    public void iSelectTextualTypeOfQuestion() throws Throwable {
+        getDriver().findElement(By.xpath("//mat-panel-title[contains(text(),'Q1')]/../../..//div[contains(text(),'Textual')]")).click();
+    }
+
+    @Then("^I type text of question \"([^\"]*)\"$")
+    public void iTypeTextOfQuestion(String text) throws Throwable {
+        getDriver().findElement(By.xpath("//mat-panel-title[contains(text(),'Q1')]/../../..//textarea")).sendKeys(text);
+        Thread.sleep(2000);
+
+    }
+
+    @And("^I save the quiz$")
+    public void iSaveTheQuiz() throws Throwable  {
+        getDriver().findElement(By.xpath("//span[contains(text(),'Save')]")).click();
+        Thread.sleep(2000);
+//        getDriver().findElement(By.xpath("//span[contains(text(),'Discard')]")).click();
+
+    }
+
+
+    @And("^click on Create New Assignment button$")
+    public void clickOnCreateNewAssignmentButton() throws Throwable {
+        Thread.sleep(4000);
+        getDriver().findElement(By.xpath("//span[contains(text(),'Create New Assignment')]")).click();
+    }
+
+    @Then("^I select quiz \"([^\"]*)\"$")
+    public void iSelectQuiz(String Quiz) throws Throwable {
+        Thread.sleep(2000);
+        getDriver().findElement(By.xpath("//mat-select[@aria-label='Select Quiz To Assign']")).click();
+        getDriver().findElement(By.xpath("//*[contains(text(), '"+Quiz+"')]")).click();
+        Thread.sleep(2000);
+    }
+
+    @Then("^I select student \"([^\"]*)\"$")
+    public void iSelectStudent(String name) throws Throwable {
+        getDriver().findElement(By.xpath("//div[@class= 'mat-list-text'][contains(.,'"+name+ "')]/..//mat-pseudo-checkbox")).click();
+        Thread.sleep(2000);
+    }
+
+    @Then("^I click Give assignment button$")
+    public void iClickGiveAssignmentButton() throws Throwable {
+        getDriver().findElement(By.xpath("//button[@type='submit']")).click();
+        Thread.sleep(2000);
+        getDriver().navigate().refresh();
     }
 }
