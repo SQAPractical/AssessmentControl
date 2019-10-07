@@ -10,7 +10,7 @@ Feature: User - First name
     And I type password "12345" on "registration" page
     And I type Confirm password "12345"
     And I click on Register me button
-    Then message "You have been Registen" appears
+    Then message "You have been Registered." appears
 
   @Sanity
   Scenario: User - First name - Field is required
