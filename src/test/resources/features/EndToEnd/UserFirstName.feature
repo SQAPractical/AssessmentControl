@@ -1,5 +1,6 @@
 Feature: User - First name
-  
+
+  @Sanity
   Scenario: User - First name - Alphanumeric and special characters
     Given I navigate to "registration" page
     And I type first name "Sofia123$"
@@ -9,7 +10,7 @@ Feature: User - First name
     And I type password "12345" on "registration" page
     And I type Confirm password "12345"
     And I click on Register me button
-    Then message "You have been Registered." appears
+    Then message "You have been Registered" appears
 
   @Sanity
   Scenario: User - First name - Field is required
