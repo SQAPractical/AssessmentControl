@@ -11,6 +11,7 @@ Feature: User - First name
     And I click on Register me button
     Then message "You have been Registered." appears
 
+  @Sanity
   Scenario: User - First name - Field is required
     Given I navigate to "registration" page
     And I type first name ""
