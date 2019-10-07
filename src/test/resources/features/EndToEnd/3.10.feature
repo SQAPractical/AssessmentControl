@@ -6,8 +6,8 @@ Feature: 3.10
     And I type password "123456" on "login" page
     And I click Sign in button
 ##    Create Quiz
-#    When I click on "Quizzes" on left menu
-#    When I click create new quiz button
+    When I click on "Quizzes" on left menu
+    When I click create new quiz button
 #    When I type title of the quiz "3.10 End to End Quiz"
 #    And I click on Add question button
 #    When I select textual type of Question
