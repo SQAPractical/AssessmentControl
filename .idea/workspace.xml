@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8081ce7c-7d80-443f-aaa9-4751d50b440b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/definitions/userFirstName_def.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/UserFirstName.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ASK-Express.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ASK-Express.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/oxana.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/def_3_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EndToEnd/3.10.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
