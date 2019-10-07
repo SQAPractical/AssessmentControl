@@ -5,6 +5,22 @@ Feature: 3.10
     When I type email "qa.sofi@gmail.com" on "login" page
     And I type password "123456" on "login" page
     And I click Sign in button
+<<<<<<< HEAD
+##    Create Quiz
+    When I click on "Quizzes" on left menu
+    When I click create new quiz button
+#    When I type title of the quiz "3.10 End to End Quiz"
+#    And I click on Add question button
+#    When I select textual type of Question
+#    Then I type text of question "What is Cookies?"
+#    And I save the quiz
+###     Create Assignment
+#    When I click on "Assignments" on left menu
+#    And click on Create New Assignment button
+#    Then I select quiz "3.10 End to End Quiz"
+#    Then I select student "Sophia Jones"
+#    Then I click Give assignment button
+=======
 #    Create Quiz
     When I click on "Quizzes" on left menu
     When I click create new quiz button
@@ -19,6 +35,7 @@ Feature: 3.10
     Then I select quiz "Test Quiz"
     Then I select student "Sophia Jones"
     Then I click Give assignment button
+>>>>>>> d6b53e6572669a5dd28e36b302a3f1e6495cb6db
 #    When I click Log out
 #    And I confirm Log Out
 ##     Login as a student and check if assignment is available
