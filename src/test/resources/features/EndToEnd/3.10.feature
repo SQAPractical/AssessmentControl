@@ -19,26 +19,26 @@ Feature: 3.10
     Then I select quiz "Test Quiz"
     Then I select student "Sophia Jones"
     Then I click Give assignment button
-#    When I click Log out
-#    And I confirm Log Out
-##     Login as a student and check if assignment is available
-#    When I type email "qa.sofi@gmail.com" on "login" page
-#    And I type password "123456" on "login" page
-#    And I click Sign in button
-#    When I click on My Assignments
-#    Then Student Assignment page should have quiz "3.12 End to End Quiz"
-#    When I click Log out
-#    And I confirm Log Out
-##     Clean up after the test
-#    Given I navigate to "login" page
-#    When I type email "qa.sofi@gmail.com" on "login" page
-#    And I click Sign in button
-#    When I click on "Assignments" on left menu
-#    Then select quiz "3.12 End to End Quiz" from Assignments and delete
-#    And I confirm delete
-#    Then I verify if quiz "3.12 End to End Quiz" is deleted from the Assignments page
-#    When I click on "Quizzes" on left menu
-#    Then I select Quiz "3.12 End to End Quiz"
-#    And I delete Quiz
-#    And I confirm delete
-#    Then I verify if quiz "3.12 End to End Quiz" is deleted from the Quizzes page
+    When I click Log out
+    And I confirm Log Out
+####     Login as a student and check if assignment is available
+    When I type email "qa.sofi@gmail.com" on "login" page
+    And I type password "123456" on "login" page
+    And I click Sign in button
+    When I click on My Assignments
+    Then Student Assignment page should have quiz "3.12 End to End Quiz"
+    When I click Log out
+    And I confirm Log Out
+####     Clean up after the test
+    Given I navigate to "login" page
+    When I type email "qa.sofi@gmail.com" on "login" page
+    And I click Sign in button
+    When I click on "Assignments" on left menu
+    Then select quiz "3.12 End to End Quiz" from Assignments and delete
+    And I confirm delete
+    Then I verify if quiz "3.12 End to End Quiz" is deleted from the Assignments page
+    When I click on "Quizzes" on left menu
+    Then I select Quiz "3.12 End to End Quiz"
+    And I delete Quiz
+    And I confirm delete
+    Then I verify if quiz "3.12 End to End Quiz" is deleted from the Quizzes page
