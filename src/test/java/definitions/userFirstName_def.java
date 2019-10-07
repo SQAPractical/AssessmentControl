@@ -1,42 +1,48 @@
 package definitions;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import org.openqa.selenium.By;
-
-import static support.TestContext.getDriver;
 import static org.assertj.core.api.Assertions.assertThat;
 
+import static support.TestContext.getDriver;
+
 public class userFirstName_def {
-    @And("I type first name {string}")
-    public void iTypeFirstName(String fName) {
-        getDriver().findElement(By.xpath("//*[@placeholder='First Name']")).sendKeys(fName);
+
+    @And("^I type first name \"([^\"]*)\"$")
+    public void iTypeFirstName(String FName) throws Throwable {
+
+        getDriver().findElement(By.xpath("//*[@placeholder='First Name']")).sendKeys(FName);
     }
 
-    @And("I type last name {string}")
-    public void iTypeLastName(String lName) {
-        getDriver().findElement(By.xpath("//*[@placeholder='Last Name']")).sendKeys(lName);
+    @And("^I type last name \"([^\"]*)\"$")
+    public void iTypeLastName(String LName) throws Throwable {
+        getDriver().findElement(By.xpath("//*[@placeholder='Last Name']")).sendKeys(LName);
+
     }
 
-    @And("I type group code {string}")
-    public void iTypeGroupCode(String gCode) {
-        getDriver().findElement(By.xpath("//*[@placeholder='Group Code']")).sendKeys(gCode);
+
+    @And("^I type group code \"([^\"]*)\"$")
+    public void iTypeGroupCode(String group) throws Throwable {
+        getDriver().findElement(By.xpath("//*[@placeholder='Group Code']")).sendKeys(group);
     }
 
-    @And("I type confirm password {string}")
-    public void iTypeConfirmPassword(String cPassword) {
-        getDriver().findElement(By.xpath("//*[@placeholder='Confirm Password']")).sendKeys(cPassword);
+    @And("^I type Confirm password \"([^\"]*)\"$")
+    public void iTypeConfirmPassword(String ConfirmPass) throws Throwable {
+        getDriver().findElement(By.xpath("//*[@placeholder='Confirm Password']")).sendKeys(ConfirmPass);
+
     }
 
-    @And("I click Register Me button")
-    public void iClickRegisterMeButton() throws InterruptedException {
-        getDriver().findElement(By.xpath("//*[contains(text(), 'Register')]")).submit();
-        Thread.sleep(1000);
+    @And("^I click on Register me button$")
+    public void iClickOnRegisterMeButton() throws Throwable {
+        getDriver().findElement(By.xpath("//*[contains(text(),'Register Me')]")).submit();
+        Thread.sleep(2000);
     }
 
-    @Then("assert the message {string} appears")
-    public void assertTheMessageAppears(String rMessage) {
-        String result = getDriver().findElement(By.xpath("//*[contains(text(),'"+rMessage+"')]")).getText();
-        assertThat(result).containsIgnoringCase(rMessage);
+    @Then("^message \"([^\"]*)\" appears$")
+    public void messageAppears(String message) throws Throwable {
+        String result = getDriver().findElement(By.xpath("//*[contains(text(),'"+message+"')]")).getText();
+        assertThat(result).containsIgnoringCase(message);
     }
 }
