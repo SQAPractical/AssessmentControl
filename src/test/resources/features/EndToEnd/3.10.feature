@@ -13,7 +13,7 @@ Feature: 3.10
     When I select textual type of Question
     Then I type text of question "What is Cookies?"
     And I save the quiz
-##     Create Assignment
+#     Create Assignment
     When I click on "Assignments" on left menu
     And click on Create New Assignment button
     Then I select quiz "Test Quiz"
