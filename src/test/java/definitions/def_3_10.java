@@ -1,6 +1,5 @@
 package definitions;
 
-
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -51,27 +50,6 @@ public class def_3_10 {
         Thread.sleep(1000);
     }
 
-<<<<<<< HEAD
-    @When("I click on {string} on left menu")
-    public void iClickOnOnLeftMenu(String arg0) {
-        if (arg0.equalsIgnoreCase("Quizzes")) {
-            getDriver().findElement(By.xpath("//*[contains(text(),‘Quizzes’)]/..")).click();
-        } else if (arg0.equalsIgnoreCase("Assigments")) {
-            getDriver().findElement(By.xpath("//*[contains(text(),‘Assignments’)]/..")).click();
-        } else {
-            throw new RuntimeException("Not supported" + arg0);
-        }
-    }
-
-
-    @When("I click create new quiz button")
-    public void iClickCreateNewQuizButton() {
-        waitForPageLoading():
-        getDriver().findElement(By.xpath())
-
-    }
-}
-=======
     @When("^I click on \"([^\"]*)\" on left menu$")
     public void iClickOnOnLeftMenu(String menuItem) throws Throwable {
         getDriver().findElement(By.xpath("//*[contains(text(),'"+ menuItem +"')]")).click();
@@ -147,4 +125,3 @@ public class def_3_10 {
         getDriver().navigate().refresh();
     }
 }
->>>>>>> d6b53e6572669a5dd28e36b302a3f1e6495cb6db
