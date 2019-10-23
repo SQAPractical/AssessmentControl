@@ -5,9 +5,3 @@ geckodriver.exe
 javaWebdriverCucumber.iml
 ASK.iml
 pom.xml
-.idea/
-target/
-**/.idea/workspace.xml
-/.idea/workspace.xml
-./workspace.xml
-workspace.xml
