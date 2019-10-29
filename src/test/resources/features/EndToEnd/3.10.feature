@@ -3,7 +3,7 @@ Feature: 3.10
   Scenario: Teacher create Quiz and assign it to student and student get assignments
     Given I navigate to "login" page
     When I type email "0mohandlove33o@cojqh5.com" on "login" page
-    And I type password "123456" on "login" page
+    And I type password "12345" on "login" page
     And I click Sign in button
 #    Create Quiz
     When I click on "Quizzes" on left menu
