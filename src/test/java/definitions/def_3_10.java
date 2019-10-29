@@ -84,6 +84,7 @@ public class def_3_10 {
 
     @Then("^I type text of question \"([^\"]*)\"$")
     public void iTypeTextOfQuestion(String text) throws Throwable {
+        Thread.sleep(2000);
         getDriver().findElement(By.xpath("//mat-panel-title[contains(text(),'Q1')]/../../..//textarea")).sendKeys(text);
         Thread.sleep(2000);
 
