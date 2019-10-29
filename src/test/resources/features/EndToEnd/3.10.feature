@@ -5,21 +5,21 @@ Feature: 3.10
     When I type email "qa.sofi@gmail.com" on "login" page
     And I type password "123456" on "login" page
     And I click Sign in button
-##    Create Quiz
-#    When I click on "Quizzes" on left menu
-#    When I click create new quiz button
-#    When I type title of the quiz "Test Quiz"
-#    And I click on Add question button
-#    When I select textual type of Question
-#    Then I type text of question "What is Cookies?"
-#    And I save the quiz
-##     Create Assignment
-#    When I click on "Assignments" on left menu
-#    And click on Create New Assignment button
-#    Then I select quiz "Test Quiz"
-#    Then I select student "Sophia Jones"
-#    Then I click Give assignment button
-#    When I click Log out
+#    Create Quiz
+    When I click on "Quizzes" on left menu
+    When I click create new quiz button
+    When I type title of the quiz "Test Quiz"
+    And I click on Add question button
+    When I select textual type of Question
+    Then I type text of question "What is Cookies?"
+    And I save the quiz
+#     Create Assignment
+    When I click on "Assignments" on left menu
+    And click on Create New Assignment button
+    Then I select quiz "Test Quiz"
+    Then I select student "Sophia Jones"
+    Then I click Give assignment button
+    #When I click Log out
 #    And I confirm Log Out
 ##     Login as a student and check if assignment is available
 #    When I type email "qa.sofi@gmail.com" on "login" page
