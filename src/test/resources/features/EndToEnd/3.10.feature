@@ -1,7 +1,7 @@
 @EndToEnd
 Feature: 3.10
   Scenario: Teacher create Quiz and assign it to student and student get assignments
-    Given I navigate to "login" page
+#    Given I navigate to "login" page
     When I type email "qa.sofi@gmail.com" on "login" page
     And I type password "123456" on "login" page
     And I click Sign in button
