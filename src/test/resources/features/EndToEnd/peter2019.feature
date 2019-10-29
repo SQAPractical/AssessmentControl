@@ -1,1 +1,0 @@
-My studdy in Portnov
