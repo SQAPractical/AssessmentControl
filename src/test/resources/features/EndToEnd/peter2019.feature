@@ -1,1 +1,1 @@
-My studdy in Portnov.
+My studdy in Portnov
