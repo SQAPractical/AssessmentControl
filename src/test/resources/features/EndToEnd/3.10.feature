@@ -19,7 +19,7 @@ Feature: 3.10
     Then I select quiz "Test Quiz"
     Then I select student "Sophia Jones"
     Then I click Give assignment button
-#    When I click Log out
+    #When I click Log out
 #    And I confirm Log Out
 ##     Login as a student and check if assignment is available
 #    When I type email "qa.sofi@gmail.com" on "login" page
