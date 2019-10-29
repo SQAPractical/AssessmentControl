@@ -2,14 +2,10 @@
 Feature: 3.10
   Scenario: Teacher create Quiz and assign it to student and student get assignments
     Given I navigate to "login" page
-    When I type email "qa.sofi@gmail.com" on "login" page
+    When I type email "0mohandlove33o@cojqh5.com" on "login" page
     And I type password "123456" on "login" page
     And I click Sign in button
-<<<<<<< HEAD
-##    Create Quiz
-=======
 #    Create Quiz
->>>>>>> 32278139b991bcaca5bfaadef7d4a71659e7811f
     When I click on "Quizzes" on left menu
     When I click create new quiz button
     When I type title of the quiz "Test Quiz"
@@ -17,21 +13,12 @@ Feature: 3.10
     When I select textual type of Question
     Then I type text of question "What is Cookies?"
     And I save the quiz
-<<<<<<< HEAD
-##     Create Assignment
-#    When I click on "Assignments" on left menu
-#    And click on Create New Assignment button
-#    Then I select quiz "Test Quiz"
-#    Then I select student "Sophia Jones"
-#    Then I click Give assignment button
-=======
 #     Create Assignment
     When I click on "Assignments" on left menu
     And click on Create New Assignment button
     Then I select quiz "Test Quiz"
     Then I select student "Sophia Jones"
     Then I click Give assignment button
->>>>>>> 32278139b991bcaca5bfaadef7d4a71659e7811f
 #    When I click Log out
 #    And I confirm Log Out
 ##     Login as a student and check if assignment is available
