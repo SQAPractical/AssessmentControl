@@ -2,13 +2,9 @@ chromedriver
 chromedriver.exe
 geckodriver
 geckodriver.exe
-javaWebdriverCucumber.iml
 Assessment_Control.iml
 pom.xml
 .idea/
 target/
-**/.idea/workspace.xml
-/.idea/workspace.xml
-./workspace.xml
-workspace.xml
+
 
