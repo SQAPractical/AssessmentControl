@@ -1,3 +1,0 @@
-tghgFGNNVMB:?Lg
-  zvnei
-  cnwjidh
