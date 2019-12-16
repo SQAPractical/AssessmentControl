@@ -2,7 +2,7 @@ chromedriver
 chromedriver.exe
 geckodriver
 geckodriver.exe
-Assessment_Control.iml
+AssessmentControl.iml
 pom.xml
 .idea/
 target/
